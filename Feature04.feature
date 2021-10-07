@@ -1,11 +1,11 @@
   Feature: Candidatura a vagas
 
   Feature Description
-    Usuário deve poder se candidatar a uma vaga de sua escolha.
+    Usuário deve conseguir se candidatar a uma vaga de sua escolha.
 
   Background:
     When Uma vaga está disponível
-    And Estiver no período de inscrção
+    And Estiver no período de inscrição
     And Clicou no botão 'Candidatar-se'
     
   Scenario: Candidato atende aos requisitos
